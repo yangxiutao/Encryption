@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.source_files  = "EntryptionAndDetryption", "EntryptionAndDetryption/*.{h,m}"
   s.exclude_files = "EntryptionAndDetryption/Exclude"
   s.frameworks = "Foundation"
-  s.requires_arc = true
+#s.requires_arc = true
 end
