@@ -157,7 +157,8 @@
 				1226617E1C7C31AD00E072E6 /* NSString+EntryptionAndDetryption.h */,
 				1226617F1C7C31AD00E072E6 /* NSString+EntryptionAndDetryption.m */,
 			);
-			path = EntryptionAndDetryption;
+			name = EntryptionAndDetryption;
+			path = ../../EntryptionAndDetryption;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
