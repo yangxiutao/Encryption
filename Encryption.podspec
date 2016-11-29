@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.author             = { "yangxiutao" => "546822414@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/yangxiutao/Encryption.git", :tag => "{1.0.0}" }
-  s.source_files  = "EncryptionAndDecryptionDemo", "EncryptionAndDecryptionDemo/EncryptionAndDecryptionDemo/EntryptionAndDetryption/*.{h,m}"
-  s.exclude_files = "EncryptionAndDecryptionDemo/EncryptionAndDecryptionDemo/Exclude"
+  s.source_files  = "EncryptionAndDecryptionDemo/EntryptionAndDetryption/**/*.{h,m}"
+
   s.frameworks = "Foundation"
   s.requires_arc = true
 end
